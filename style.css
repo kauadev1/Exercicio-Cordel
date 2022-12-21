@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&family=Sriracha&display=swap');
+
+:root{
+  --fonte-cabecalho: 'Passion One', cursive;
+  --fonte-texto: 'Sriracha', cursive;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: var(--fonte-cabecalho);
+  min-width: 300px;
+  max-width: 1000px;
+  padding-bottom: 200em;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+header h1{
+  font-size: 4em;
+}
+
+header p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+header  a{
+  color: white;
+  text-decoration: none;
+  font-family: var(--fonte-cabecalho);
+  font-size: 1.3em;
+}
+
+main{
+  font-family: var(--fonte-texto);
+  font-size: large;
+  padding-bottom: 200em;
+  min-width: 300px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+  max-width: 1000px;
+  text-align: left;
+}
+
+.titulo{
+  padding-bottom: 5px;
+}
+
+.primeira-folha{
+  margin-top: -2.7em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: white;
+}
+
+p{
+  line-height: 2em;
+  text-indent: 1em;
+}
+
+.segunda-folha{
+  background-image: url(imagens/background001.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  color: white;
+}
+
+.segunda-folha p{
+  background-color: rgba(0, 0, 0, 0.322);
+  width: 15em;
+}
+
+.terceira-folha{
+  background-color: white;
+  padding-top: 5em;
+
+}
+
+.ultima-linha{
+  padding-top: 2em;
+}
