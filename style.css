@@ -22,11 +22,10 @@ header{
   font-family: var(--fonte-cabecalho);
   margin-bottom: 33px;
   padding: 58px;
-  letter-spacing: 6px;
 }
 
 header h1{
-  font-size: 8em;
+  font-size: 10vw;
   font-variant: small-caps;
 }
 
@@ -69,7 +68,7 @@ article{
 }
 
 p{
-  font-size: 65px;
+  font-size: 3.5vw;
   line-height: 2em;
   text-align: left;
   padding-left: 30px
@@ -87,7 +86,8 @@ p{
 
 .segunda-folha p{
   background-color: rgba(0, 0, 0, 0.493);
-  width: 15em;
+  display: inline-block;
+  padding: 5px;
 }
 
 .terceira-folha{
@@ -110,7 +110,8 @@ p{
 
 article.quarta-folha p{
   background-color: rgba(0, 0, 0, 0.493);
-  width: 15em;
+  display: inline-block;
+  padding: 5px;
   color: white;
 }
 
