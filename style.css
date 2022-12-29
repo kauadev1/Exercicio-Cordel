@@ -10,7 +10,8 @@
   margin: 0px;
 }
 
-body{
+html, body{
+  min-height: 100vh;
   background-color: antiquewhite;
 }
 
@@ -18,24 +19,22 @@ header{
   background-color: black;
   color: white;
   text-align: center;
-  padding-top: 70px;
-  padding-bottom: 70px;
   font-family: var(--fonte-cabecalho);
-  min-width: 300px;
-  max-width: 1000px;
-  padding-bottom: 200em;
-  padding: 20px;
-  margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
+  padding: 58px;
+  letter-spacing: 6px;
 }
 
 header h1{
-  font-size: 4em;
+  font-size: 8em;
+  font-variant: small-caps;
 }
 
 header p{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: center;
 }
 
 header  a{
@@ -45,32 +44,35 @@ header  a{
   font-size: 1.3em;
 }
 
+header  a:hover, footer a:hover{
+  text-decoration: underline;
+}
+
 main{
   font-family: var(--fonte-texto);
   font-size: large;
-  padding-bottom: 200em;
-  min-width: 300px;
-  padding: 20px;
-  margin: auto;
-  margin-bottom: 30px;
-  max-width: 1000px;
-  text-align: left;
 }
 
 .titulo{
   padding-bottom: 5px;
 }
 
+article{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+}
+
 .primeira-folha{
   margin-top: -2.7em;
-  padding-top: 5em;
-  padding-bottom: 5em;
   background-color: white;
 }
 
 p{
+  font-size: 65px;
   line-height: 2em;
-  text-indent: 1em;
+  text-align: left;
+  padding-left: 30px
 }
 
 .segunda-folha{
@@ -78,22 +80,58 @@ p{
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  background-attachment: scroll;
   color: white;
+  padding: 10vh 10vh 10vh 5vh;
 }
 
 .segunda-folha p{
-  background-color: rgba(0, 0, 0, 0.322);
+  background-color: rgba(0, 0, 0, 0.493);
   width: 15em;
 }
 
 .terceira-folha{
   background-color: white;
-  padding-top: 5em;
 
 }
 
 .ultima-linha{
   padding-top: 2em;
+}
+
+.quarta-folha{
+  background-image: url(imagens/background002.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 10vh 10vh 10vh 5vh;
+}
+
+article.quarta-folha p{
+  background-color: rgba(0, 0, 0, 0.493);
+  width: 15em;
+  color: white;
+}
+
+.quinta-folha{
+  background-color: white;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
+}
+
+footer p{
+  font-size: 18px;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
